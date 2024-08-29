@@ -1,0 +1,10 @@
+{
+    "income": [
+        {
+            "amount": 1000.0,
+            "category": "0",
+            "date": "01012002"
+        }
+    ],
+    "expenses": []
+}
