@@ -11,63 +11,6 @@ A lightweight, Python-based command-line application to help you track income, e
 ✅ Data Persistence — All records saved to data.txt (auto-created if missing).
 ✅ Zero Dependencies — Built with Python’s standard library. Runs anywhere!
 
-🚀 Installation
-1. Clone the Repository
-bash
-
-
-1
-git clone https://github.com/yourusername/finance-manager.git
-2. Navigate to Project Directory
-bash
-
-
-1
-cd finance-manager
-✅ No external libraries needed — pure Python! 
-
-🖥️ Usage
-Run the application:
-
-bash
-
-
-1
-python finance_manager.py
-Follow the interactive menu to:
-
-➕ Add Income or Expense
-📊 View Financial Summary
-📄 Generate Detailed Transaction Report
-📁 File Management
-All your financial data is stored in:
-
-
-
-1
-data.txt
-⚠️ Important: Do not delete this file — it contains all your transaction history! 
-
-🧱 Code Structure
-FinanceManager Class
-__init__(data_file)
-Initializes manager & loads data from file.
-load_data()
-Reads existing transactions from
-data.txt
-.
-save_data()
-Saves current transactions back to file.
-add_transaction(...)
-Adds income/expense with amount, category, date.
-view_summary()
-Displays totals for income, expenses, and savings.
-generate_report()
-Prints full categorized transaction history.
-
-main() Function
-Provides the interactive CLI menu for user actions.
-
 🤝 Contributions
 We ❤️ contributions! Here’s how to help:
 
